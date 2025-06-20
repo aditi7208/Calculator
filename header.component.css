@@ -1,0 +1,19 @@
+header{
+    text-align: center;
+    margin: 3rem auto;
+}
+
+header img{
+    padding: 2vh;
+    width: 5rem;
+    height: 5rem;
+    object-fit: contain;
+    background-color: transparent;
+}
+header h2{
+    margin-top: 0vh;
+    font-size: 1.5rem;
+}
+body{
+    background-color: red;
+}

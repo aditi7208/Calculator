@@ -1,0 +1,46 @@
+table {
+  width: 90%;
+  max-width: 1000px;
+  margin: 2rem auto;
+  border-collapse: collapse;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
+  overflow: hidden;
+}
+
+thead {
+  background-color: #0d3b66;
+  color: #fff;
+}
+
+thead th {
+  text-align: left;
+  padding: 1rem 1.5rem;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+tbody td {
+  padding: 0.9rem 1.5rem;
+  border-top: 1px solid #eee;
+  font-size: 0.95rem;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+tbody tr:hover {
+  background-color: #eef6ff;
+}
+
+.center {
+  text-align: center;
+  margin-top: 2rem;
+  font-size: 1.1rem;
+  color: #555;
+  font-weight: 500;
+}
